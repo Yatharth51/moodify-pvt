@@ -1,0 +1,33 @@
+.input {
+    flex-grow: 1;
+    height: 27px;
+    min-width: 70px;
+    border-radius: var(--inner-roundness);
+    border: 2px solid hsla(240, 25%, 75%, 0.016);
+    background-color: hsl(235, 20%, 20%);
+    color: hsl(240, 25%, 75%);
+    transition: border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    padding-left: 12px;
+    padding-right: 12px;
+    font-size: 14px;
+  }
+  
+  .input:focus {
+    outline: none;
+    border-color: hsl(235, 55%, 55%);
+    background-color: hsl(235, 25%, 25%);
+  }
+
+  .input-form {
+    display: flex;
+    justify-content: space-between;
+    gap: 8px;
+    align-items: center;
+  }
+
+  .input-form textarea {
+    resize: vertical;
+    max-height: 120px;
+    min-height: 48px;
+    font-family: inherit;
+  }

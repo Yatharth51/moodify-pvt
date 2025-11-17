@@ -1,0 +1,7 @@
+# Requirements for ReactGPT with Groq API
+fastapi
+uvicorn[standard]
+python-dotenv
+groq
+pydantic
+requests

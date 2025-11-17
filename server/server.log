@@ -1,0 +1,2580 @@
+INFO:     Will watch for changes in these directories: ['/Users/yatharth51/Desktop/emot/reactGPT-master/server']
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [92820] using WatchFiles
+/Users/yatharth51/Desktop/emot/venv/lib/python3.12/site-packages/fer/fer.py:37: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  import pkg_resources
+/Users/yatharth51/Desktop/emot/venv/lib/python3.12/site-packages/tensorflow/lite/python/interpreter.py:457: UserWarning:     Warning: tf.lite.Interpreter is deprecated and is scheduled for deletion in
+    TF 2.20. Please use the LiteRT interpreter from the ai_edge_litert package.
+    See the [migration guide](https://ai.google.dev/edge/litert/migration)
+    for details.
+    
+  warnings.warn(_INTERPRETER_DELETION_WARNING)
+INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
+INFO:     Started server process [92884]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+✓ FER websocket endpoint registered at /ferws
+INFO:     127.0.0.1:57840 - "GET /emotion HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57848 - "POST /emotion HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57850 - "POST /chat HTTP/1.1" 200 OK
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:     127.0.0.1:57883 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:57885 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:57887 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:57889 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:57891 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:57893 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:57895 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:57897 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+INFO:     127.0.0.1:57899 - "OPTIONS /chat HTTP/1.1" 200 OK
+INFO:     127.0.0.1:57899 - "POST /chat HTTP/1.1" 200 OK
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:     connection closed
+INFO:     127.0.0.1:57902 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:57904 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:57906 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:57908 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:57910 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:57912 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:57914 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:57916 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:57918 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:57920 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:57922 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:57924 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+INFO:     127.0.0.1:57926 - "POST /chat HTTP/1.1" 200 OK
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:     127.0.0.1:57929 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:57932 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:57934 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:57937 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:57939 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:57941 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:57943 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:57945 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:57947 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:57949 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:57951 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:57953 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:57955 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:57957 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:57959 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:57961 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:57963 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:57965 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:57967 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:57969 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:57971 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:57973 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.ABNORMAL_CLOSURE: 1006>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+INFO:     127.0.0.1:57975 - "POST /chat HTTP/1.1" 200 OK
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:     127.0.0.1:57978 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:57980 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:57982 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:57984 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:57986 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:57988 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:57990 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:57992 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:57994 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:57996 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:57998 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58000 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58002 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58004 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58006 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58008 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58010 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58012 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58014 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58016 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58018 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58020 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58022 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58024 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58026 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58028 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58030 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58032 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58034 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+INFO:     127.0.0.1:58037 - "POST /chat HTTP/1.1" 200 OK
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:     connection closed
+INFO:     127.0.0.1:58040 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58042 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58044 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58046 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58048 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58050 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58052 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58054 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58056 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58058 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58060 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58062 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58064 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58066 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58068 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58070 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58072 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58077 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58078 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58079 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58080 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58082 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58085 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58086 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58088 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58090 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58092 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58094 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58096 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58098 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58100 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58102 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58104 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58106 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58108 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58110 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58112 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58114 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58116 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58118 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58121 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58124 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58125 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+INFO:     127.0.0.1:58127 - "POST /chat HTTP/1.1" 200 OK
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:     127.0.0.1:58130 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58135 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58136 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58137 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58139 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58141 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58143 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58145 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58147 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58149 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58151 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58153 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58155 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58157 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58159 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58161 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58163 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58165 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58167 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58169 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58171 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58173 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58175 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58177 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58179 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58181 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58183 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58185 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58187 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58189 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58191 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58193 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58195 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58197 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58199 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58201 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58203 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58205 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58207 - "WebSocket /ferws" [accepted]
+INFO:     connection closed
+INFO:     127.0.0.1:58209 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58211 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58213 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58215 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58217 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58219 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58221 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58223 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58225 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58227 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58229 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58232 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58233 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.ABNORMAL_CLOSURE: 1006>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1006, None)
+[FER] WebSocket disconnected
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+INFO:     127.0.0.1:58235 - "POST /chat HTTP/1.1" 200 OK
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:     127.0.0.1:58238 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58243 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58244 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58245 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58248 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58249 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58251 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58253 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58255 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58257 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58260 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58261 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58263 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58265 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58267 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58272 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58273 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58274 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58276 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58281 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58282 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58283 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58284 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58286 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58289 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58291 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58293 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58295 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58297 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58299 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58301 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58303 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58305 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58308 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58309 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58311 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58313 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58315 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58318 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: 
+[FER] Unexpected error: Cannot call "send" once a close message has been sent.
+[FER] Payload processing error: 
+[FER] Unexpected error: Cannot call "send" once a close message has been sent.
+[FER] Payload processing error: 
+[FER] Unexpected error: Cannot call "send" once a close message has been sent.
+[FER] Payload processing error: 
+[FER] Unexpected error: Cannot call "send" once a close message has been sent.
+[FER] Payload processing error: 
+[FER] Unexpected error: Cannot call "send" once a close message has been sent.
+[FER] Payload processing error: 
+[FER] Unexpected error: Cannot call "send" once a close message has been sent.
+[FER] Payload processing error: 
+[FER] Unexpected error: Cannot call "send" once a close message has been sent.
+[FER] Payload processing error: 
+[FER] Unexpected error: Cannot call "send" once a close message has been sent.
+[FER] Payload processing error: 
+[FER] Unexpected error: Cannot call "send" once a close message has been sent.
+[FER] Payload processing error: 
+[FER] Unexpected error: Cannot call "send" once a close message has been sent.
+[FER] Payload processing error: 
+[FER] Unexpected error: Cannot call "send" once a close message has been sent.
+[FER] Payload processing error: 
+[FER] Unexpected error: Cannot call "send" once a close message has been sent.
+[FER] Payload processing error: 
+[FER] Unexpected error: Cannot call "send" once a close message has been sent.
+[FER] Payload processing error: 
+[FER] Unexpected error: Cannot call "send" once a close message has been sent.
+[FER] Payload processing error: 
+[FER] Unexpected error: Cannot call "send" once a close message has been sent.
+[FER] Payload processing error: 
+[FER] Unexpected error: Cannot call "send" once a close message has been sent.
+[FER] Payload processing error: 
+[FER] Unexpected error: Cannot call "send" once a close message has been sent.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+INFO:     127.0.0.1:58324 - "WebSocket /ferws" [accepted]
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     127.0.0.1:58340 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58342 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1006, None)
+[FER] WebSocket disconnected
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+INFO:     127.0.0.1:58344 - "POST /chat HTTP/1.1" 200 OK
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:     127.0.0.1:58347 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58349 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58351 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58353 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58355 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58357 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58359 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58361 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58363 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58365 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58367 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58369 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58371 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58373 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58375 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58378 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58379 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58381 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58383 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58385 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58387 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58389 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58391 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58393 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58395 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58397 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58399 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58401 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58403 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58405 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58407 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58409 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+INFO:     127.0.0.1:58411 - "POST /chat HTTP/1.1" 200 OK
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:     127.0.0.1:58414 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58416 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58418 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58420 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58422 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58425 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58426 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58429 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58431 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58433 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58435 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58437 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58439 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58441 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58443 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58445 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58447 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58449 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58451 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58453 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58455 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58457 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58459 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58461 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58463 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58465 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58467 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58469 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58471 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58473 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58475 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58477 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58479 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58481 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58483 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58485 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58487 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58489 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58491 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58493 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58495 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58497 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58499 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58501 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58503 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58505 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58507 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58509 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58511 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58513 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58515 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58517 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58520 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58522 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58524 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58526 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58528 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58542 - "WebSocket /ferws" [accepted]
+INFO:     connection closed
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.ABNORMAL_CLOSURE: 1006>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1006, None)
+[FER] WebSocket disconnected
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     127.0.0.1:58555 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58557 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58568 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58570 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58572 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58574 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58576 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58579 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58582 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58591 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58593 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58601 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58603 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58605 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58607 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58609 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58611 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58613 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58615 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58617 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58619 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58621 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58623 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58625 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58627 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58629 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58632 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58634 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58636 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58638 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58640 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58642 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58644 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58646 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58648 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58650 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58652 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58654 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58656 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58658 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58666 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58668 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58670 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58673 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58676 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58679 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58682 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58684 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58688 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58693 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58695 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: 
+[FER] Unexpected error: Cannot call "send" once a close message has been sent.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: 
+[FER] Unexpected error: Cannot call "send" once a close message has been sent.
+INFO:     connection closed
+INFO:     127.0.0.1:58697 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58699 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58702 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58703 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58705 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58707 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58709 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58711 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58713 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58717 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58721 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58723 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58725 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58727 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58729 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58731 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58733 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58735 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58737 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58740 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58743 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58744 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58746 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58748 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58751 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58753 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58755 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58760 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58763 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58765 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58767 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58769 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58771 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58773 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58775 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+INFO:     127.0.0.1:58777 - "POST /chat HTTP/1.1" 200 OK
+INFO:httpx:HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+INFO:     127.0.0.1:58780 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58782 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58784 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58786 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58788 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58790 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58793 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58795 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58797 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58799 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58801 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58803 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58805 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58807 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58809 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58812 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58814 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58816 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58818 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58820 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58822 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58824 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58826 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58828 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58830 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58832 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58834 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58836 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58838 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58840 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58842 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58844 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58846 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58848 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58850 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58852 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58854 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58856 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58858 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58860 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58862 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58864 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58866 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58869 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58870 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58872 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58874 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58876 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58879 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58880 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58882 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58886 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58887 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58889 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58890 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58892 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58894 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58896 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58898 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58900 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58902 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58904 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58906 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58908 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58910 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58912 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58914 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58916 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58918 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58920 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58922 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58924 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58926 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58928 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58931 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58932 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58934 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58936 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58938 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58940 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58942 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58944 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58946 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58951 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58953 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58955 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58957 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58960 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58961 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:58963 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58966 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58969 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58970 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58972 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58974 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58976 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58978 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58980 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58983 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58984 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58986 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58988 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58990 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58993 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58994 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58996 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:58998 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:59000 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:59002 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:59004 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:59006 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:59008 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:59010 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:59012 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:59014 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:59017 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:59019 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:59021 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:59023 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:59025 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:59027 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:59029 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:59032 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     127.0.0.1:59034 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     127.0.0.1:59036 - "WebSocket /ferws" [accepted]
+INFO:     connection open
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.ABNORMAL_CLOSURE: 1006>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (<CloseCode.NO_STATUS_RCVD: 1005>, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+[FER] Unexpected error: Unexpected ASGI message 'websocket.send', after sending 'websocket.close' or response already completed.
+[FER] Payload processing error: (1001, '')
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed
+INFO:     connection closed

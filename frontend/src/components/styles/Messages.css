@@ -1,0 +1,59 @@
+.message {
+    display: inline-block;
+    max-width: 80%;
+    margin: 8px 4px;
+    padding: 12px 16px;
+    border-radius: 12px;
+    overflow-wrap: break-word;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-break: break-word;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+  }
+  
+  .message:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .message li {
+    white-space: normal;
+  }
+  
+  .message pre div {
+    border-radius: 8px;
+    font-size: 12px;
+  }
+  
+  p code {
+    background-color: hsl(213, 39%, 20%);
+    border-radius: 4px;
+    color: hsl(240, 80%, 85%);
+    padding: 2px 6px;
+    font-size: 13px;
+  }
+  
+  .user-message {
+    background: linear-gradient(135deg, hsl(235, 60%, 50%), hsl(235, 50%, 40%));
+    color: hsl(240, 100%, 95%);
+    float: right;
+    clear: both;
+  }
+  
+  .assistant-message {
+    background: linear-gradient(135deg, hsl(235, 35%, 75%), hsl(235, 30%, 65%));
+    color: hsl(240, 20%, 15%);
+    float: left;
+    clear: both;
+  }
+  
+  .message * {
+    margin: 0px;
+  }
+
+  .messages-container {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }

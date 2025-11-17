@@ -1,0 +1,92 @@
+:root {
+  --side-margin: 8px;
+  --top-bottom-padding: 8px;
+  --inner-roundness: 5.5px;
+}
+
+/* Menubar styles */
+.menubar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  height: 56px;
+  max-width: 95%;
+  inset: 0 0 auto 0;
+  margin: 12px auto auto auto;
+  padding: var(--top-bottom-padding) 16px;
+  background-color: hsla(235, 20%, 12%, 0.95);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  z-index: 1000;
+  border: 1px solid hsla(235, 30%, 25%, 0.3);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.input,
+.slider-container {
+  margin-left: var(--side-margin);
+  margin-right: var(--side-margin);
+}
+
+.slider-container {
+  position: relative;
+  width: 140px;
+  height: 2.2em;
+  cursor: pointer;
+  background-color: hsl(240, 10%, 18%);
+  border-radius: var(--inner-roundness);
+  transition: 0.4s;
+  border: 1px solid hsla(240, 20%, 30%, 0.5);
+}
+
+
+.slider-container input {
+  opacity: 0;
+  position: fixed;
+}
+
+.slider-track {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.slider {
+  position: absolute;
+  left: 0;
+  height: 2.2em;
+  width: 50%;
+  border-radius: var(--inner-roundness);
+  background: linear-gradient(135deg, hsl(235, 50%, 40%), hsl(240, 45%, 35%));
+  transition: 0.4s;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+input:checked + .slider-track .slider {
+  left: 50%;
+}
+
+.model-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  color: hsl(240, 76%, 87%);
+  font-size: 13px;
+  font-weight: 500;
+  z-index: 1;
+  transition: color 0.3s ease;
+}
+
+input:checked + .slider-track .model-label:last-child {
+  color: hsl(240, 80%, 95%);
+  font-weight: 600;
+}
+
+input:not(:checked) + .slider-track .model-label:first-child {
+  color: hsl(240, 80%, 95%);
+  font-weight: 600;
+}
