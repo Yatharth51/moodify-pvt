@@ -22,15 +22,51 @@ function App() {
   };
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', height: '100vh', width: '100vw' }}>
-      {/* <Menubar
-        modelName={modelName}
-        systemMessage={systemMessage}
-        onModelToggle={handleModelToggle}
-        onSystemMessageChange={handleSystemMessageChange}
-      /> */}
+    <div style={{ 
+      display: 'flex', 
+      flexDirection: 'column', 
+      height: '100vh', 
+      width: '100vw',
+      background: 'linear-gradient(135deg, #0f0f2e 0%, #1a0033 50%, #0f0f2e 100%)',
+      position: 'relative',
+    }}>
+      {/* Decorative glows */}
+      <div style={{
+        position: 'fixed',
+        width: '300px',
+        height: '300px',
+        background: '#7c3aed',
+        borderRadius: '50%',
+        filter: 'blur(100px)',
+        opacity: '0.15',
+        top: '-100px',
+        left: '-100px',
+        pointerEvents: 'none',
+        zIndex: 0,
+      }} />
+      <div style={{
+        position: 'fixed',
+        width: '400px',
+        height: '400px',
+        background: '#d946ef',
+        borderRadius: '50%',
+        filter: 'blur(100px)',
+        opacity: '0.15',
+        bottom: '-150px',
+        right: '-150px',
+        pointerEvents: 'none',
+        zIndex: 0,
+      }} />
 
-      <div style={{ display: 'flex', gap: '16px', flex: 1, padding: '80px 16px 16px 16px', overflow: 'hidden' }}>
+      <div style={{ 
+        display: 'flex', 
+        gap: '16px', 
+        flex: 1, 
+        padding: '80px 16px 16px 16px', 
+        overflow: 'hidden',
+        position: 'relative',
+        zIndex: 1,
+      }}>
         {/* Webcam sidebar */}
         <div style={{
           display: 'flex',
@@ -41,30 +77,31 @@ function App() {
         }}>
           <div style={{
             padding: '12px',
-            background: 'hsla(235, 30%, 8%, 0.6)',
-            borderRadius: '8px',
-            border: '0.25px solid hsla(235, 30%, 20%, 0.4)',
-            backdropFilter: 'blur(1px)',
+            background: 'rgba(124, 58, 237, 0.1)',
+            borderRadius: '12px',
+            border: '1px solid rgba(124, 58, 237, 0.3)',
+            backdropFilter: 'blur(10px)',
           }}>
             <WebcamEmotion onEmotionUpdate={e => setEmotion(e.emotion)} />
           </div>
           <div style={{
-            padding: '12px',
-            background: 'hsla(235, 30%, 8%, 0.6)',
-            borderRadius: '8px',
-            border: '0.25px solid hsla(235, 30%, 20%, 0.4)',
-            backdropFilter: 'blur(1px)',
+            padding: '16px',
+            background: 'rgba(124, 58, 237, 0.1)',
+            borderRadius: '12px',
+            border: '1px solid rgba(124, 58, 237, 0.3)',
+            backdropFilter: 'blur(10px)',
             textAlign: 'center',
           }}>
-            <p style={{ margin: '0 0 8px 0', fontSize: '12px', color: 'hsla(235, 55%, 80%, 0.7)' }}>
+            <p style={{ margin: '0 0 8px 0', fontSize: '12px', color: '#b8a0ff' }}>
               Detected Emotion
             </p>
             <p style={{
               margin: 0,
-              fontSize: '24px',
+              fontSize: '28px',
               fontWeight: 'bold',
               color: `hsl(${emotionToHue(emotion)}, 80%, 60%)`,
               textTransform: 'capitalize',
+              letterSpacing: '0.5px',
             }}>
               {emotion}
             </p>
@@ -72,7 +109,15 @@ function App() {
         </div>
 
         {/* Chat area */}
-        <div style={{ flex: 1, display: 'flex', overflow: 'hidden' , margin:'2px', padding:'8px'}}>
+        <div style={{ 
+          flex: 1, 
+          display: 'flex', 
+          overflow: 'hidden',
+          borderRadius: '12px',
+          border: '1px solid rgba(124, 58, 237, 0.2)',
+          background: 'rgba(15, 15, 46, 0.4)',
+          backdropFilter: 'blur(10px)',
+        }}>
           <Chat modelName={modelName} systemMessage={systemMessage} emotion={emotion} />
         </div>
       </div>

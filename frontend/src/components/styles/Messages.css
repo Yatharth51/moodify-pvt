@@ -8,13 +8,13 @@
     overflow-x: auto;
     white-space: pre-wrap;
     word-break: break-word;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-    transition: transform 0.2s ease;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease;
   }
   
   .message:hover {
     transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    box-shadow: 0 4px 16px rgba(124, 58, 237, 0.3);
   }
   
   .message li {
@@ -27,25 +27,28 @@
   }
   
   p code {
-    background-color: hsl(213, 39%, 20%);
+    background-color: rgba(124, 58, 237, 0.2);
     border-radius: 4px;
-    color: hsl(240, 80%, 85%);
+    color: #d946ef;
     padding: 2px 6px;
     font-size: 13px;
+    border: 1px solid rgba(124, 58, 237, 0.3);
   }
   
   .user-message {
-    background: linear-gradient(135deg, hsl(235, 60%, 50%), hsl(235, 50%, 40%));
-    color: hsl(240, 100%, 95%);
+    background: linear-gradient(135deg, #7c3aed, #d946ef);
+    color: #ffffff;
     float: right;
     clear: both;
+    border: 1px solid rgba(217, 70, 239, 0.5);
   }
   
   .assistant-message {
-    background: linear-gradient(135deg, hsl(235, 35%, 75%), hsl(235, 30%, 65%));
-    color: hsl(240, 20%, 15%);
+    background: linear-gradient(135deg, rgba(124, 58, 237, 0.15), rgba(217, 70, 239, 0.1));
+    color: #e0e0ff;
     float: left;
     clear: both;
+    border: 1px solid rgba(124, 58, 237, 0.3);
   }
   
   .message * {

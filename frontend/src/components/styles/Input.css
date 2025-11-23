@@ -2,11 +2,11 @@
     flex-grow: 1;
     height: 27px;
     min-width: 70px;
-    border-radius: var(--inner-roundness);
-    border: 2px solid hsla(240, 25%, 75%, 0.016);
-    background-color: hsl(235, 20%, 20%);
-    color: hsl(240, 25%, 75%);
-    transition: border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+    border-radius: 8px;
+    border: 2px solid rgba(124, 58, 237, 0.2);
+    background-color: rgba(15, 15, 46, 0.6);
+    color: #e0e0ff;
+    transition: all 0.2s ease-in-out;
     padding-left: 12px;
     padding-right: 12px;
     font-size: 14px;
@@ -14,8 +14,9 @@
   
   .input:focus {
     outline: none;
-    border-color: hsl(235, 55%, 55%);
-    background-color: hsl(235, 25%, 25%);
+    border-color: #7c3aed;
+    background-color: rgba(15, 15, 46, 0.8);
+    box-shadow: 0 0 15px rgba(124, 58, 237, 0.3);
   }
 
   .input-form {
@@ -30,4 +31,17 @@
     max-height: 120px;
     min-height: 48px;
     font-family: inherit;
+    border-radius: 8px;
+    border: 2px solid rgba(124, 58, 237, 0.2);
+    background-color: rgba(15, 15, 46, 0.6);
+    color: #e0e0ff;
+    padding: 10px 12px;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .input-form textarea:focus {
+    outline: none;
+    border-color: #7c3aed;
+    background-color: rgba(15, 15, 46, 0.8);
+    box-shadow: 0 0 15px rgba(124, 58, 237, 0.3);
   }

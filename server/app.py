@@ -31,6 +31,7 @@ except Exception as e:
     print("✗ FER server registration failed (optional):")
     traceback.print_exc()
 
+
 # Create a Groq client
 client = Groq(api_key=os.getenv("GROQ_API_KEY"))
 
